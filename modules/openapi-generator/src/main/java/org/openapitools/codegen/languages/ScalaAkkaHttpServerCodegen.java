@@ -130,6 +130,8 @@ public class ScalaAkkaHttpServerCodegen extends AbstractScalaCodegen implements 
         typeMapping.put("long", "Long");
         typeMapping.put("float", "Float");
         typeMapping.put("byte", "Byte");
+        typeMapping.put("ByteArray", "Array[Byte]");
+        typeMapping.put("ArrayByte", "Array[Byte]");
         typeMapping.put("short", "Short");
         typeMapping.put("char", "Char");
         typeMapping.put("double", "Double");
